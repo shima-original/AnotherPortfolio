@@ -90,4 +90,11 @@ a:hover {
             }
     }
 
+@media (min-width: 600px)
+    {
+        h1, h2, p, ul {
+          
 
+            display: block;
+            }
+    }
