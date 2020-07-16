@@ -70,3 +70,29 @@ a:visited {
 a:hover {
     color: sandybrown;
 }
+@media (min-width: 300px)
+    {
+        h1, h2, p {
+            text-align: center;
+            font-size-adjust: 0.30;
+            display: block;
+            }
+    }
+
+@media (min-width: 600px)
+    {
+        h1, h2, p {
+            text-align: right;
+            font-size-adjust: 0.50;
+            display: block;
+            }
+    } 
+
+@media (min-width: 992px)
+    {
+        h1, h2,p {
+            text-aligh: right;
+            font-size-adjust: 0.70;
+            display: block;
+            }
+    }
