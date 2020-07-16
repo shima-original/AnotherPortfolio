@@ -35,9 +35,9 @@ html {
 }
 
 .page1, .page2 {
-    width: 40%;
+    width: 60%;
     padding: 20px;
-    margin: 0 auto;
+    margin: 20px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
     background-color: lightblue;
@@ -70,7 +70,7 @@ a:hover {
     color: sandybrown;
 }
 
-@media (min-width: 300px)
+/* @media (min-width: 300px)
     {
         h1, h2, p {
             text-align: center;
@@ -84,6 +84,15 @@ a:hover {
         h1, h2, p {
             text-align: right;
             font-size-adjust: 0.50;
+            display: block;
+            }
+    } */
+
+@media (min-width: 992px)
+    {
+        h1, h2,p {
+            text-aligh: right;
+            font-size-adjust: 0.70;
             display: block;
             }
     }
