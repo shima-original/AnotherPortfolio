@@ -73,7 +73,7 @@ a:hover {
 
 @media (min-width: 300px)
     {
-        h1, h2, p {
+        h1, h2, p, ol {
             text-align: center;
             font-size-adjust: 0.30;
             display: block;
@@ -82,7 +82,7 @@ a:hover {
 
 @media (min-width: 600px)
     {
-        h1, h2, p {
+        h1, h2, p, ol {
             text-align: right;
             font-size-adjust: 0.50;
             display: block;
@@ -91,7 +91,7 @@ a:hover {
 
 @media (min-width: 992px)
     {
-        h1, h2,p {
+        h1, h2, p, ol {
             text-aligh: right;
             font-size-adjust: 0.70;
             display: block;
