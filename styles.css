@@ -79,7 +79,7 @@ a:hover {
     color: sandybrown;
 }
 
-@media (min-width: 300px)
+@media (max-width: 300px)
     {
         h1, h2, p, ul {
             text-align: center;
