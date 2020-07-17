@@ -14,7 +14,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 ol {
-
+    padding-left: 1.5em;
     list-style: square;
 }
 
@@ -29,29 +29,20 @@ table {
     border-spacing: 0;
 }
 
-p {
-    font-size: 20px
-}
-
 html {
     padding-top: 25px;
     background-image: url('andrew-buchanan-2B4ntaSvWSc-unsplash.jpg');
 }
 
 .page1, .page2 {
-    
-    height: 60%;
+    width: 40%;
     padding: 20px;
+    margin: 0 auto;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
     background-color: lightblue;
     color: darkslategray;
     line-height: 150%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-     width: 40em;
 }
 
 
@@ -78,23 +69,3 @@ a:visited {
 a:hover {
     color: sandybrown;
 }
-
-@media (min-width: 300px)
-    {
-        h1, h2, p, ul {
-            text-align: center;
-            font-size-adjust: 0.30;
-            display: block;
-            height: 80%;
-            width: 80em;
-            }
-    }
-
-@media (min-width: 600px)
-    {
-        h1, h2, p, ul {
-          
-
-            display: block;
-            }
-    }
