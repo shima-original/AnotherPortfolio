@@ -87,5 +87,9 @@ a:hover {
             font-size-adjust: 0.50;
             display: block;
         }
+        
+        .page1, .page2 {
+            flex-grow: 1;   
+        }
     }
             
