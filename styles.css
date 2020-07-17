@@ -72,3 +72,12 @@ a:visited {
 a:hover {
     color: sandybrown;
 }
+
+@media (min-width: 300px)
+    {
+        h1, h2, p, ul {
+            font-size-adjust: 0.50;
+            display: block;
+        }
+    }
+            
