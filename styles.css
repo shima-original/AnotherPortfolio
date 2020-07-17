@@ -73,6 +73,14 @@ a:hover {
     color: sandybrown;
 }
 
+@media screen and (min-width: 600px) {
+    .flexbox {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        }
+    }
+
 @media (min-width: 300px)
     {
         h1, h2, p, ul {
