@@ -46,6 +46,7 @@ html {
     background-color: lightblue;
     color: darkslategray;
     line-height: 150%;
+    flex-basis: 50%;
 }
 
 
