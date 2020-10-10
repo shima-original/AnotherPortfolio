@@ -45,7 +45,7 @@ html {
 
 .page1, .page2 {
     
-    padding: 20px;
+    padding: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
