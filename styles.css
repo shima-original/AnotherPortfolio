@@ -34,6 +34,13 @@ html {
     background-image: url('andrew-buchanan-2B4ntaSvWSc-unsplash.jpg');
 }
 
+
+.flexbox {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+ }
+
 .page1, .page2 {
     width: 40%;
     padding: 20px;
@@ -74,23 +81,6 @@ a:hover {
     color: sandybrown;
 }
 
-@media screen and (min-width: 600px) {
-    .flexbox {
-        display: -webkit-flex;
-        display: flex;
-        flex-direction: column;
-        }
-    }
+    
 
-@media (min-width: 300px)
-    {
-        h1, h2, p, ul {
-            font-size-adjust: 0.50;
-            display: block;
-        }
-        
-        .page1, .page2 {
-            flex-grow: 1;   
-        }
-    }
             
