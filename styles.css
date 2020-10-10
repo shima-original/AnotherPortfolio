@@ -39,6 +39,8 @@ html {
         display: -webkit-flex;
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
  }
 
 .page1, .page2 {
@@ -53,16 +55,16 @@ html {
     background-color: lightblue;
     color: darkslategray;
     line-height: 150%;
-    flex-basis: 50%;
+    flex-basis: auto;
+    flex-grow: 1;
 }
 
 .page3 {
-    
+    flex-basis: auto;
+    flex-grow: 0;
 }
 
-button {
-    
-}
+
 
 
 h1 {
