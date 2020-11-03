@@ -121,16 +121,16 @@ h2 {
 }
 
 .page1 a:link {
-    color: steelblue;
+    color: mediumblue;
 }
 
 .page1 a:visited {
-    color: mediumblue;
+    color: steelblue;
 }
 
 .page1 a:hover {
     color: white;
-    background-color: mediumblue;
+    background-color: steelblue;
 }
 
     
