@@ -85,7 +85,7 @@ html {
 }
 
 
-a. button {
+a .button {
     background-color: #AFEEEE;
     background-image: -webkit-linear-gradient(top, #AFEEEE 0%, #48D1CC 50%, #5F9EAO 50%, #008080 100%);
     background-image: -moz-linear-gradient(top, #AFEEEE 0%, #48D1CC 50%, #5F9EAO 50%, #008080 100%);
