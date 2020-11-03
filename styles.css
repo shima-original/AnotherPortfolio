@@ -50,6 +50,7 @@ html {
      justify-content: space-around;
      flex-grow: 1;
      flex-shrink: 1;
+     flex-wrap: wrap;
 }
 
 
