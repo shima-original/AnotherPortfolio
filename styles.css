@@ -81,7 +81,7 @@ html {
     line-height: 150%;
     
     flex-basis: initial;
-    flex-grow: 1;
+    flex-grow: 0;
 }
 
 
