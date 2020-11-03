@@ -53,6 +53,12 @@ html {
      flex-wrap: wrap;
 }
 
+@media (max-width: 320px) {
+    .firstflex {
+        flex-direction: column;
+    }
+}
+
 
 .secondflex {
     flex-basis: initial;
