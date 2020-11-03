@@ -120,16 +120,17 @@ h2 {
     font-size: 130%;
 }
 
-a:link {
+.page1 a:link {
     color: steelblue;
 }
 
-a:visited {
+.page1 a:visited {
     color: mediumblue;
 }
 
-a:hover {
-    color: sandybrown;
+.page1 a:hover {
+    color: white;
+    background-color: mediumblue;
 }
 
     
