@@ -43,6 +43,23 @@ html {
         align-items: center;
  }
 
+.firstflex {
+     display: -webkit-flex;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     flex-grow: 1;
+     flex-shrink: 1;
+}
+
+
+.secondflex {
+    flex-basis: initial;
+    box-sizing: border-box;
+    flex-grow: 0;  
+    flex-shrink: 0;
+}
+
 .page1, .page2 {
     
     padding: 20px;
@@ -55,17 +72,11 @@ html {
     background-color: lightblue;
     color: darkslategray;
     line-height: 150%;
+    
     flex-basis: initial;
-    box-sizing: border-box;
     flex-grow: 1;
 }
 
-.page3 {
-    flex-basis: initial;
-    box-sizing: border-box;
-    flex-grow: 0;
-   
-}
 
 button {
     background-color: #00CCFF;
